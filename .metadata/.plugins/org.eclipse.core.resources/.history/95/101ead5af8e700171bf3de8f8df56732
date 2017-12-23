@@ -1,0 +1,11 @@
+package fortest;
+import chap2.*;
+
+public class TestDrive {
+
+	public static void main(String[] args) {
+		Dog dog = new Dog();
+		dog.bark();
+	}
+
+}
