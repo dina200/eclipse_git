@@ -1,0 +1,13 @@
+package puzzle;
+
+public class PuzzleB {
+	int ivar;
+	
+	public int doStuff(int factor) {
+		if (ivar > 100) {
+			return ivar + factor;
+		} else { 
+			return ivar - factor;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package headfirstjava;
+
+public class Chapter4 {
+	
+	public static int setLocale(){
+		System.out.println("Fresh");
+		return 34;
+	}
+	public static void main (String[] args){
+		int k = Chapter4.setLocale();
+		System.out.println(k);
+	}
+
+}
