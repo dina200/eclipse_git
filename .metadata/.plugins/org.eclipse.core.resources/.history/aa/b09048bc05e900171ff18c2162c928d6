@@ -1,0 +1,23 @@
+package sea_fight;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		DotCom dot = new DotCom();
+		int[] location = new int [] {2, 3, 4};
+		dot.setLocationCells(location);
+		
+		String userGuess = "7";	
+		String result = dot.checkYourself(userGuess);
+		String testResult = "Нeудача";
+		
+		if(result.equals("Попал")) {
+			testResult = "!";
+		}
+		
+		System.out.println(testResult);
+	}
+
+}

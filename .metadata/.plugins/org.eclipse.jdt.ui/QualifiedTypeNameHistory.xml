@@ -6,5 +6,12 @@
 <fullyQualifiedTypeName name="chap2.Dog"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="chapter3.Triangle"/>
+<fullyQualifiedTypeName name="headfirstjava.Chapter4"/>
+<fullyQualifiedTypeName name="headfirstjava.Mix4"/>
+<fullyQualifiedTypeName name="sun.net.www.content.audio.x_aiff"/>
+<fullyQualifiedTypeName name="puzzle.PuzzleB"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

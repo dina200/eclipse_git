@@ -13,5 +13,15 @@
     "location": "D:\\Univer\\Git\\eclipse_git\\headfirstjava\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\headfirstjava\\src\u0027. Skipped."
+  },
+  "D:\\Univer\\Git\\eclipse_git\\Puzzle\\src": {
+    "location": "D:\\Univer\\Git\\eclipse_git\\Puzzle\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\Puzzle\\src\u0027. Skipped."
+  },
+  "D:\\Univer\\Git\\eclipse_git\\sea_fight\\src": {
+    "location": "D:\\Univer\\Git\\eclipse_git\\sea_fight\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\sea_fight\\src\u0027. Skipped."
   }
 }

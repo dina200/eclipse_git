@@ -1,0 +1,40 @@
+package sea_fight;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+
+public class Game {
+
+	public static void main(String[] args) {
+		int numOfGuesses = 0;
+		
+		DotCom dot = new DotCom();
+		
+		int randLocation = (int) (Math.random() * 4);
+		
+		int[] location = new int [3];
+		location [0] = randLocation;
+		for (int i = 1; i < location.length; i++) {
+			location[i] = randLocation + i;
+		}	
+		
+		dot.setLocationCells(location);
+		
+		boolean isAlive = true;	
+		
+		while(isAlive) {
+			System.out.println("Введите значение: ");
+			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));			
+			String choice = reader.toString();	
+			int guess = Integer.parseInt(choice);
+			dot.checkYourself(guess);
+			numOfGuesses++;
+			
+			if(dot.checkYourself(choice).equalsIgnoreCase("Потопил")) {
+				isAlive = false;
+				System.out.println("Количество попыток: " + numOfGuesses);
+			}
+		}
+	}
+}

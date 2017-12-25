@@ -1,0 +1,31 @@
+package sea_fight;
+
+import java.util.Scanner;
+
+public class DotCom {
+	private int[] locationCells;
+	private int numOfHits = 0;
+	
+	public String checkYourself (String guess) {
+		
+		int choice = Integer.parseInt(guess); 
+		String result = "Мимо";
+		
+		for(int cell : this.locationCells) {			
+			if (choice == cell){
+				this.numOfHits++;
+				if (this.numOfHits < this.locationCells.length) {
+					result = "Попал";
+				} else if (this.numOfHits == this.locationCells.length) {
+					result = "Потопил";
+				}
+			} 			
+		}
+		System.out.print(result);
+		return result;
+	}
+	
+	public void setLocationCells(int[] loc) {
+		this.locationCells = loc;		
+	}	
+}
