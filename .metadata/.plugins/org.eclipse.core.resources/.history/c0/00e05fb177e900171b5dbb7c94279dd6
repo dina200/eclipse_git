@@ -1,0 +1,22 @@
+package sea_fight;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class GameHelper {
+	public String getUserInput(String ask){
+		System.out.println(ask);
+		String inputLine = null;
+		try {
+			Scanner scanner = new Scanner(System.in);
+			inputLine = scanner.nextLine();
+			
+			if (inputLine.length() == 0) {
+				return null;
+			}
+		} catch (IOException exc) {
+			System.err.println("IOException: " + e);
+		}
+			
+	}	
+}

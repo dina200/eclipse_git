@@ -1,40 +1,72 @@
 package sea_fight;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+
 
 public class Game {
 
-	public static void main(String[] args) {
-		int numOfGuesses = 0;
+	private GameHelper helper = new GameHelper();
+	private ArrayList<DotCom> listOfDotCom = new ArrayList<DotCom> ();
+	private int numOfGuesses = 0;
+	
+	private void setUpGame() {
+		DotCom dot1 = new DotCom();
+		DotCom dot2 = new DotCom();
+		DotCom dot3 = new DotCom();
 		
-		DotCom dot = new DotCom();
+		dot1.setName("Pets.com");
+		dot2.setName("Go2.com");
+		dot3.setName("AskMe.com");
 		
-		int randLocation = (int) (Math.random() * 4);
+		System.out.println("Ваша цель - потопить три \"сайта\": " + dot1.getName() + ", " + dot2.getName() + ", " + dot3.getName() + ".");
+		System.out.println("Попытайтесь потопить их за минимальное количество ходов");
 		
-		int[] location = new int [3];
-		location [0] = randLocation;
-		for (int i = 1; i < location.length; i++) {
-			location[i] = randLocation + i;
-		}	
-		
-		dot.setLocationCells(location);
-		
-		boolean isAlive = true;	
-		
-		while(isAlive) {
-			System.out.println("Введите значение: ");
-			Scanner scanner = new Scanner(System.in);
-			String choice = scanner.nextLine();	
+		for (DotCom dotComToSet : listOfDotCom) {
+			ArrayList<String> newLocation = helper.placeDotCom(3);
+			dotComToSet.setLocationCells(newLocation);
+		}
+	}
+	
+	private void startPlaying() {
+		while(!listOfDotCom.isEmpty()) {
+			String userGuess = helper.getUserInput("Ваш ход");
+			checkUserGuess(userGuess);
+		}
+		finishGame();
+	}
+	
+	private void checkUserGuess(String userGuess) {
+		this.numOfGuesses++;
+		String result = "Мимо";	
+		for (DotCom dotComToTest : listOfDotCom) {
+			result = dotComToTest.checkYourself(userGuess);
 			
-			if (dot.checkYourself(choice).equals("Попал")) {
-				numOfGuesses++;
+			if (result.equals("Попал")) {
+				break;
 			}
-			if(numOfGuesses == 3) {
-				isAlive = false;
-				System.out.println("Количество попыток: " + numOfGuesses);
+			
+			if (result.equals("Потопил")) {
+				listOfDotCom.remove(dotComToTest);
 				break;
 			}
 		}
+		System.out.println(result);
 	}
-
+	
+	private void finishGame() {
+		System.out.println("Все \"сайты\" потоплены.");
+		if (numOfGuesses <= 18) {
+			System.out.println("Это заняло у вас всего " + numOfGuesses + " попыток.");
+			System.out.println("Вы выйграли.");
+		} else {
+			System.out.println("Это заняло у вас много " + numOfGuesses + " попыток.");
+			System.out.println("Вы проиграли.");
+		}
+	}
+	
+	public static void main(String[] args) {
+		Game game = new Game();
+		game.setUpGame();
+		game.startPlaying();
+	}
 }

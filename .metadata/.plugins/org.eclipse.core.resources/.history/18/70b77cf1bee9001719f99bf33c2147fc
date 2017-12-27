@@ -1,0 +1,45 @@
+package sea_fight;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+
+		DotCom dot1 = new DotCom();
+		DotCom dot2 = new DotCom();
+		DotCom dot3 = new DotCom();
+		
+		int numOfGuesses = 0;
+		
+		
+		
+		GameHelper helper = new GameHelper();
+		
+		int randLocation = (int) (Math.random() * 5);
+		
+		ArrayList<String> location = new ArrayList<String> ();
+		
+		for (int i = 0; i < 3; i++) {
+			location.add(((Integer)(randLocation + i)).toString());
+		}	
+		
+		dot.setLocationCells(location);
+		
+		boolean isAlive = true;	
+		
+		while(isAlive == true) {
+			
+			String choice = helper.getUserInput("Введите значение: ");
+			
+			String result = dot.checkYourself(choice);
+			numOfGuesses++;
+			
+			if (result.equals("Потопил")) {
+				isAlive = false;
+				System.out.println("Количество попыток: " + numOfGuesses);
+			}
+		}
+	}
+}

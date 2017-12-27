@@ -1,0 +1,38 @@
+package sea_fight;
+
+import java.util.ArrayList;
+
+public class DotCom {
+	private String name; 
+	private ArrayList<String> locationCells;
+
+	public DotCom () {
+		this.name = "unknown";
+	}
+	public DotCom (String name) {
+		this.name = name;
+	}
+	
+	public String checkYourself (String guess) {		
+		String result = "Мимо";
+		int index = this.locationCells.indexOf(guess);
+		
+		if (index >= 0){
+			this.locationCells.remove(index);
+			if (this.locationCells.isEmpty()) {
+				result = "Потопил";
+			} else {
+				result = "Попал";
+			}			
+		}
+		return result;
+	}
+		
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void setLocationCells(ArrayList<String> loc) {
+		this.locationCells = loc;		
+	}	
+}

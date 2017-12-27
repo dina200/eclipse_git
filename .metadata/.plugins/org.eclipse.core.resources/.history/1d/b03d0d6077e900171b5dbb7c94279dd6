@@ -1,0 +1,11 @@
+package sea_fight;
+
+import java.util.Scanner;
+
+public class GameHelper {
+	public String getUserInput(String ask){
+		System.out.println(ask);
+		Scanner scanner = new Scanner(System.in);
+		return scanner.nextLine();	
+	}	
+}

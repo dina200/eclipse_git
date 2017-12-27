@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sea_fight.GaneHelper&apos; to &apos;GameHelper&apos;&#x0D;&#x0A;- Original project: &apos;sea_fight&apos;&#x0D;&#x0A;- Original element: &apos;sea_fight.GaneHelper&apos;&#x0D;&#x0A;- Renamed element: &apos;sea_fight.GameHelper&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GaneHelper&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sea_fight{GaneHelper.java[GaneHelper" matchStrategy="1" name="GameHelper" qualified="false" references="true" similarDeclarations="false" stamp="1514207665987" textual="false" version="1.0"/>
+</session>
