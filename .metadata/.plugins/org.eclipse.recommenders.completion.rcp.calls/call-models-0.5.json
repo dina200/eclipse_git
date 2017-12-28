@@ -28,5 +28,10 @@
     "location": "D:\\Univer\\Git\\eclipse_git\\Task8pool\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\Task8pool\\src\u0027. Skipped."
+  },
+  "D:\\Univer\\Git\\eclipse_git\\TaskPool\\src": {
+    "location": "D:\\Univer\\Git\\eclipse_git\\TaskPool\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\TaskPool\\src\u0027. Skipped."
   }
 }

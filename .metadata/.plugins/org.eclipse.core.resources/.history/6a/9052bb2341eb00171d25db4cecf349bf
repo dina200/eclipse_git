@@ -1,0 +1,16 @@
+package fortest;
+
+import chap2.Dog;
+import game.*;
+
+public class TestDrive {
+
+	public static void main(String[] args) {
+//		GuessGame game = new GuessGame();
+//		game.startGame();
+		Dog d = new Dog();
+		System.out.print(d.toString());
+		
+	}
+
+}
