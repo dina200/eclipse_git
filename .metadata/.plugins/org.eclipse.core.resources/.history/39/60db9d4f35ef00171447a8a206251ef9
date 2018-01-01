@@ -1,0 +1,11 @@
+package radiatorpackage;
+import java.util.*;
+
+public class V2Radiator {
+	V2Radiator (ArrayList <SimUnit> list) {
+		for (int i = 0; i < 5; i++) {
+			list.add(new SimUnit("V2радиатор"));
+			System.out.println("Радиатор");
+		}		
+	}
+}

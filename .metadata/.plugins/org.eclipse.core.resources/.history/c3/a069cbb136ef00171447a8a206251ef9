@@ -1,0 +1,14 @@
+package radiatorpackage;
+
+import java.util.ArrayList;
+
+public class RetentionBot {
+	int sum = 0;
+	RetentionBot (ArrayList <SimUnit>  rlist) {
+		
+		SimUnit tmp = new SimUnit("Тепловая машина");
+		rlist.add(tmp);
+		sum += tmp.powerUse();
+		System.out.println("Тепловая машина " + sum);
+	}
+}
