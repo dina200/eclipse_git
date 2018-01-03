@@ -1,0 +1,10 @@
+package mooncalendar;
+
+public class FullMoons {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
