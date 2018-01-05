@@ -10,9 +10,6 @@
 <fullyQualifiedTypeName name="sun.net.www.content.audio.x_aiff"/>
 <fullyQualifiedTypeName name="puzzle.PuzzleB"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="sea_fight.DotCom"/>
 <fullyQualifiedTypeName name="chap2.Dog"/>
@@ -22,4 +19,14 @@
 <fullyQualifiedTypeName name="radiatorpackage.V3Radiator"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.sound.midi.Sequencer"/>
+<fullyQualifiedTypeName name="javax.sound.midi.ShortMessage"/>
+<fullyQualifiedTypeName name="midisenquencer.MiniMiniMusicApp"/>
+<fullyQualifiedTypeName name="java.sql.Time"/>
+<fullyQualifiedTypeName name="javax.sound.midi.Sequence"/>
+<fullyQualifiedTypeName name="java.lang.Short"/>
+<fullyQualifiedTypeName name="javax.sound.midi.MidiEvent"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

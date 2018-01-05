@@ -1,7 +1,0 @@
-package task;
-
-public class Clowns extends Acts{
-	public int iMethod() {		
-		return 5;		
-	}
-}

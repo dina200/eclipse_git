@@ -43,5 +43,15 @@
     "location": "D:\\Univer\\Git\\eclipse_git\\Test\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\Test\\src\u0027. Skipped."
+  },
+  "D:\\Univer\\Git\\eclipse_git\\midisenquencer\\src": {
+    "location": "D:\\Univer\\Git\\eclipse_git\\midisenquencer\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\midisenquencer\\src\u0027. Skipped."
+  },
+  "D:\\Univer\\Git\\eclipse_git\\minimusic\\src": {
+    "location": "D:\\Univer\\Git\\eclipse_git\\minimusic\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\minimusic\\src\u0027. Skipped."
   }
 }
