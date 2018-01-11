@@ -1,0 +1,16 @@
+package gui;
+import javax.swing.*;
+
+public class Gui {
+	public static void main (String[] args) {
+		JFrame frame = new JFrame();
+		JButton button = new JButton("click me");
+		JRadioButton rbutton = new JRadioButton();
+		JCheckBox cbox = new JCheckBox();
+		frame.getContentPane().add(button);
+		frame.getContentPane().add(rbutton);
+		frame.getContentPane().add(cbox);
+		frame.setSize(300, 300);
+		frame.setVisible(true);
+	}
+}

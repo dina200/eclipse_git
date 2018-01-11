@@ -53,5 +53,15 @@
     "location": "D:\\Univer\\Git\\eclipse_git\\minimusic\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\minimusic\\src\u0027. Skipped."
+  },
+  "D:\\Univer\\Git\\eclipse_git\\animate\\src": {
+    "location": "D:\\Univer\\Git\\eclipse_git\\animate\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\animate\\src\u0027. Skipped."
+  },
+  "D:\\Univer\\Git\\eclipse_git\\Panel\\src": {
+    "location": "D:\\Univer\\Git\\eclipse_git\\Panel\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\Panel\\src\u0027. Skipped."
   }
 }
