@@ -63,5 +63,15 @@
     "location": "D:\\Univer\\Git\\eclipse_git\\Panel\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\Panel\\src\u0027. Skipped."
+  },
+  "D:\\Univer\\Git\\eclipse_git\\serialization\\src": {
+    "location": "D:\\Univer\\Git\\eclipse_git\\serialization\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\serialization\\src\u0027. Skipped."
+  },
+  "D:\\Univer\\Git\\eclipse_git\\task14\\src": {
+    "location": "D:\\Univer\\Git\\eclipse_git\\task14\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Univer\\Git\\eclipse_git\\task14\\src\u0027. Skipped."
   }
 }
