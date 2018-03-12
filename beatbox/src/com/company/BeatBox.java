@@ -8,12 +8,27 @@ import java.io.*;
 import java.util.*;
 
 public class BeatBox {
+
+    JFrame theFrame;
     JPanel mainPanel;
+
+    JList incomingList;
+    JTextField userMessage;
+
     ArrayList<JCheckBox> checkBoxList;
+
+    int nextNum;
+    Vector<String> listVector = new Vector<String>();
+    String userName;
+    ObjectOutputStream out;
+    ObjectInputStream in;
+    HashMap<String, boolean[]> otherSeqsMap = new HashMap<String, boolean[]>();
+
     Sequencer sequencer;
     Sequence sequence;
+    Sequence mySequence = null;
     Track track;
-    JFrame theFrame;
+
 
     String[] instrumentNames = {"Bass Drum",    "Closed Hi-Hat",    "Open Hi-Hat",  "Acoustic Snare",
                                 "Crash Cymbal", "Hard Clap",        "High Tom",     "Hi Bongo",
@@ -23,6 +38,11 @@ public class BeatBox {
                         49, 39, 50, 60,
                         70, 72, 64, 56,
                         58, 47, 67, 63};
+
+    public void startUp(String name) {
+
+    }
+
 
     public void buildGUI() {
         theFrame = new JFrame("Cyber BeatBox");
