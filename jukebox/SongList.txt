@@ -1,5 +1,5 @@
-Midi/LoveCard
-HashMap/Sid
-Looking for you/Girl
-Keep me closer/Tirion
-WipeTube/Cupper
+Midi/LoveCard/4/100
+HashMap/Sid/2/150
+Looking for you/Girl/1/200
+Keep me closer/Tirion/5/130
+WipeTube/Cupper/3/100

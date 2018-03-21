@@ -40,7 +40,12 @@ public class BeatBox {
                         58, 47, 67, 63};
 
     public void startUp(String name) {
+        userName = name;
+        try {
 
+        } catch(Exception ex) {
+
+        }
     }
 
 
